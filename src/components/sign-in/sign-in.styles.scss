@@ -1,0 +1,25 @@
+.sign-in{
+    width:30vw;
+    margin-top:20px;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.sign-in {
+    box-sizing: border-box;
+}
+
+
+
+@media (max-width:900px) {
+    .sign-in{
+        padding:5%;
+        width:100%;
+        flex-direction: column;
+    }
+}
